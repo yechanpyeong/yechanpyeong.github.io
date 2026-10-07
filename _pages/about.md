@@ -2,33 +2,41 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Undergraduate student in <a href='https://chem.kaist.ac.kr/' target='_blank'>Chemistry</a>, <a href='https://www.kaist.ac.kr/en/' target='_blank'>KAIST</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pyeong.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Department of Chemistry</p>
+    <p>Korea Advanced Institute of Science and Technology (KAIST)</p>
+    <p>Daejeon, Republic of Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a B.S. student in Chemistry (Advanced Major) at KAIST, expected to graduate in February 2028. My research interests lie in theoretical and computational chemistry, with a focus on chemical reaction dynamics and nonadiabatic processes, exploration of potential energy surfaces (PES), and the development of numerical algorithms for molecular systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## Research
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I currently work with [Prof. Young Min Rhee](https://singlet.kaist.ac.kr/) on semiclassical nonadiabatic dynamics and electronic coherence in photochemical reactions. Using mixed quantum-classical (pbme-nH) trajectories, I study how phase-coherent electronic dynamics affect branching ratios at conical intersections during the ring-opening photochemistry of furan, and I am integrating Spin Mapping into the pbme-nH framework in place of MMST mapping.
+
+Previously, I worked with [Prof. Woo Youn Kim](https://wooyoun.kaist.ac.kr/) on automated bond perception and atom mapping, formulating the restoration of bond orders and formal charges from 3D atomic connectivity as a mixed-integer linear programming problem, which achieved over 99% accuracy on thousands of organic molecules from PubChem.
+
+## Beyond research
+
+I play double bass as the principal bassist and section leader of the KAIST Orchestra. I also served as a KATUSA in the Eighth U.S. Army (2024–2025), and enjoy competitive programming and algorithms.
+
+See my [CV](/cv/) for more details.
